@@ -1,4 +1,4 @@
-package dio.edu.bankapi.model;
+package dio.edu.bankapi.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

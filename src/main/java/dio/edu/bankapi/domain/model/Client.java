@@ -1,4 +1,4 @@
-package dio.edu.bankapi.model;
+package dio.edu.bankapi.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,6 +18,8 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+
 
     @Column(length = 100, nullable = false)
     private String name;
